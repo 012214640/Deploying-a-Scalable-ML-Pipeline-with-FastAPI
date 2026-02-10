@@ -1,6 +1,6 @@
 [flake8]
+# Allow lines up to 99 characters
 max-line-length = 99
-ignore =
-    F401  # ignore unused imports
-    E203  # spacing before ':'
-    W391  # blank line at end of file
+
+# Ignore unused imports, spacing before ':', and blank lines at the end of the file
+ignore = F401,E203,W391
